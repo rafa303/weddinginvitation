@@ -691,40 +691,6 @@
                     </div>
         </section>
 
-        <!-- Countdown -->
-        <section id="countdown">
-            <div class="section-inner">
-            <div class="text-center reveal">
-                <span class="section-tag">Menuju Hari Bahagia</span>
-                <h2 style="font-size: 2rem; color: var(--primary);">Save The Date</h2>
-            </div>
-
-            <div class="cd-grid reveal">
-                <div class="cd-item glass">
-                    <div class="cd-num" id="cd-hari">00</div>
-                    <div class="cd-label">Hari</div>
-                </div>
-                <div class="cd-item glass">
-                    <div class="cd-num" id="cd-jam">00</div>
-                    <div class="cd-label">Jam</div>
-                </div>
-                <div class="cd-item glass">
-                    <div class="cd-num" id="cd-menit">00</div>
-                    <div class="cd-label">Menit</div>
-                </div>
-                <div class="cd-item glass">
-                    <div class="cd-num" id="cd-detik">00</div>
-                    <div class="cd-label">Detik</div>
-                </div>
-            </div>
-            <div class="text-center reveal" style="margin-top: 2.5rem;">
-                <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Pernikahan+Qomaruddin+%26+Layli&dates=20260718T020000Z/20260718T070000Z&details=Acara+Pernikahan+Qomaruddin+dan+Layli.+Lokasi:+Ds+Sudah,+Malo,+Bojonegoro&location=Ds+Sudah,+Malo,+Bojonegoro" target="_blank" class="btn-primary" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; padding: 0.8rem 2rem; border-radius: 30px; text-decoration: none; font-size: 0.9rem;">
-                    <i class="fa-regular fa-calendar-plus"></i> Simpan Tanggal (Google Calendar)
-                </a>
-            </div>
-                    </div>
-        </section>
-
         <!-- Events -->
         <section id="events" class="bg-primary">
             <div class="section-inner">
@@ -777,55 +743,7 @@
                     </div>
         </section>
 
-        <!-- RSVP -->
-        <section id="rsvp" class="bg-light-alt">
-            <div class="section-inner">
-            <div class="text-center reveal">
-                <span class="section-tag">Kehadiran</span>
-                <h2 style="font-size: 2.5rem; color: var(--primary);">RSVP & Ucapan</h2>
-            </div>
 
-            <div class="rsvp-form glass reveal">
-                <div class="input-group">
-                    <label>Nama Lengkap</label>
-                    <input type="text" id="nama" placeholder="Tulis nama Anda">
-                </div>
-                <div class="bento-grid" style="margin-top: 0;">
-                    <div class="input-group">
-                        <label>Konfirmasi Kehadiran</label>
-                        <select id="status">
-                            <option value="" disabled selected>Pilih Kehadiran</option>
-                            <option value="hadir">Hadir</option>
-                            <option value="tidak">Tidak Hadir</option>
-                        </select>
-                    </div>
-                    <div class="input-group">
-                        <label>Jumlah Tamu</label>
-                        <select id="jumlah">
-                            <option value="1">1 Orang</option>
-                            <option value="2">2 Orang</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="input-group">
-                    <label>Doa & Harapan</label>
-                    <textarea id="ucapan" rows="4" placeholder="Tuliskan doa untuk kami..."></textarea>
-                    <div class="wish-chips">
-                        <button class="wish-chip"
-                            onclick="document.getElementById('ucapan').value='Barakallahu laka wa baraka alaika wa jamaa bainakuma fii khair.'">Doa
-                            Pengantin</button>
-                        <button class="wish-chip"
-                            onclick="document.getElementById('ucapan').value='Semoga menjadi keluarga yang Sakinah, Mawaddah, Warahmah.'">Sakinah
-                            Mawaddah</button>
-                    </div>
-                </div>
-                <button class="btn-primary" style="width: 100%; justify-content: center;"
-                    onclick="showModal('Terima Kasih', 'Konfirmasi kehadiran dan ucapan Anda telah kami terima.')">Kirim Konfirmasi</button>
-            </div>
-                    </div>
-        </section>
-
-        <!-- Footer -->
         <footer style="padding: 4rem 1.5rem; text-align: center; color: var(--text-muted);">
             <h2 class="script" style="font-size: 2.5rem; color: var(--primary); margin-bottom: 0.5rem;">Qomaruddin &
                 Layli</h2>
@@ -839,7 +757,6 @@
         <button class="nav-item active" onclick="scrollToId('hero')"><i class="fa-solid fa-house"></i></button>
         <button class="nav-item" onclick="scrollToId('profile')"><i class="fa-solid fa-user-group"></i></button>
         <button class="nav-item" onclick="scrollToId('events')"><i class="fa-solid fa-calendar-days"></i></button>
-        <button class="nav-item" onclick="scrollToId('rsvp')"><i class="fa-solid fa-envelope"></i></button>
     </nav>
 
     <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
