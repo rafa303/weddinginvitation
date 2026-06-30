@@ -18,18 +18,18 @@
 
     <style>
         :root {
-            /* Majestic Islamic Color Palette */
-            --primary: #16423C;
-            /* Deep Emerald */
-            --secondary: #6A9C89;
-            /* Sage */
-            --accent: #C5A880;
-            /* Soft Gold */
-            --accent-light: #E8D8C4;
-            --bg-light: #F8FAF9;
+            /* Elegant Masculine Palette (Navy & Gold) */
+            --primary: #0A192F;
+            /* Deep Navy */
+            --secondary: #112240;
+            /* Lighter Navy */
+            --accent: #D4AF37;
+            /* Metallic Gold */
+            --accent-light: #F3E5AB;
+            --bg-light: #F8F9FA;
             --white: #FFFFFF;
-            --text-main: #2C3E35;
-            --text-muted: #5C7266;
+            --text-main: #0A192F;
+            --text-muted: #495670;
 
             /* Typography */
             --font-heading: 'Outfit', sans-serif;
@@ -51,8 +51,8 @@
             overflow-x: hidden;
             -webkit-font-smoothing: antialiased;
             background-image:
-                radial-gradient(at 0% 0%, rgba(106, 156, 137, 0.15) 0px, transparent 50%),
-                radial-gradient(at 100% 100%, rgba(197, 168, 128, 0.15) 0px, transparent 50%);
+                radial-gradient(at 0% 0%, rgba(10, 25, 47, 0.1) 0px, transparent 50%),
+                radial-gradient(at 100% 100%, rgba(212, 175, 55, 0.15) 0px, transparent 50%);
             background-attachment: fixed;
             padding-bottom: 90px;
         }
@@ -63,7 +63,7 @@
             backdrop-filter: blur(12px);
             -webkit-backdrop-filter: blur(12px);
             border: 1px solid rgba(255, 255, 255, 0.6);
-            box-shadow: 0 8px 32px rgba(22, 66, 60, 0.08);
+            box-shadow: 0 8px 32px rgba(10, 25, 47, 0.08);
             border-radius: 24px;
         }
 
@@ -673,23 +673,19 @@
                 <h2 style="font-size: 2.5rem; color: var(--primary);">Sang Penyatuan</h2>
             </div>
 
-            <div class="bento-grid reveal">
-                <div class="profile-card glass" style="display: flex; flex-direction: column; align-items: center; text-align: center;">
-                    <img src="./islamic_ornament.png" alt="Foto Pria" style="width: 180px; height: 180px; object-fit: cover; border-radius: 50%; border: 4px solid var(--accent); margin-bottom: 1rem; box-shadow: 0 8px 20px rgba(0,0,0,0.1);">
-                    <h3 class="script" style="font-size: 2.5rem;">Qomaruddin</h3>
-                    <h4 style="font-size: 1.1rem; color: var(--primary); margin-bottom: 0.5rem;">M. Qomaruddin Tuhri
-                    </h4>
-                    <p>Putra dari Keluarga Bpk. [Nama Bapak] & Ibu [Nama Ibu]</p>
-                    <span class="parents">Mempelai Pria</span>
+            <div class="bento-grid reveal" style="gap: 32px;">
+                <div class="profile-card" style="display: flex; flex-direction: column; align-items: center; text-align: center; padding: 48px 32px; background-color: var(--white); border-radius: 16px; border: 1px solid rgba(10, 25, 47, 0.1); box-shadow: 0 4px 20px rgba(0,0,0,0.03);">
+                    <h3 class="script" style="font-size: 3rem; margin-bottom: 12px; color: var(--accent);">Qomaruddin</h3>
+                    <h4 style="font-size: 1.25rem; color: var(--primary); font-weight: 600; letter-spacing: 1px;">M. Qomaruddin Tuhri</h4>
+                    <div style="width: 40px; height: 2px; background-color: var(--accent); margin: 20px 0;"></div>
+                    <span style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 2px; color: var(--text-muted);">Mempelai Pria</span>
                 </div>
 
-                <div class="profile-card glass" style="display: flex; flex-direction: column; align-items: center; text-align: center;">
-                    <img src="./islamic_ornament.png" alt="Foto Wanita" style="width: 180px; height: 180px; object-fit: cover; border-radius: 50%; border: 4px solid var(--accent); margin-bottom: 1rem; box-shadow: 0 8px 20px rgba(0,0,0,0.1);">
-                    <h3 class="script" style="font-size: 2.5rem;">Layli</h3>
-                    <h4 style="font-size: 1.1rem; color: var(--primary); margin-bottom: 0.5rem;">Nur Layli Al-Aldwa'
-                    </h4>
-                    <p>Putri dari Keluarga Bpk. [Nama Bapak] & Ibu [Nama Ibu]</p>
-                    <span class="parents">Mempelai Wanita</span>
+                <div class="profile-card" style="display: flex; flex-direction: column; align-items: center; text-align: center; padding: 48px 32px; background-color: var(--white); border-radius: 16px; border: 1px solid rgba(10, 25, 47, 0.1); box-shadow: 0 4px 20px rgba(0,0,0,0.03);">
+                    <h3 class="script" style="font-size: 3rem; margin-bottom: 12px; color: var(--accent);">Layli</h3>
+                    <h4 style="font-size: 1.25rem; color: var(--primary); font-weight: 600; letter-spacing: 1px;">Nur Layli Al-Aldwa'</h4>
+                    <div style="width: 40px; height: 2px; background-color: var(--accent); margin: 20px 0;"></div>
+                    <span style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 2px; color: var(--text-muted);">Mempelai Wanita</span>
                 </div>
             </div>
                     </div>
